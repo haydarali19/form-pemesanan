@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+</head>
+<body>
+    <!-- Header -->
+    <fieldset style="display: flex; justify-content: space-between; margin: 30px 70px;">
+        <a href="#">Home</a>
+        <a href="#">Generate Link</a>
+        <a href="#">Transaction History</a>
+        <a href="#">Policy</a>
+        <a href="#">Logout</a>
+    </fieldset>
+    <!-- End of Header -->
+     
+    <!-- Content -->
+    <section>
+    <img src="laptop.jpg" width="250px" height="250px" alt="foto nya" style="margin-bottom: -30px; margin-left: 150px; border: solid 1.5px black;">
+        <br>
+        <button style="margin-left: 225px; margin-top: 35px;">Upload Picture</button>
+    </section>
+    <form action="result.html" style="margin-left: 550px; margin-top: -285px;">
+        <label for="customername" auto>Merk Laptop :</label>
+        <input type="text" name="customername" id="customername" style="margin-left: 55px;" placeholder="Name Product">
+        <br>
+        <br>
+        <label for="">Description :</label>
+        <textarea name="Description" style="margin-left: 65px;"></textarea>
+        <br>
+        <br>
+        <label for="#">Account Number :</label>
+        <input type="number" name="Account" id="Account" style="margin-left: 28px; width: 250px;" placeholder="Your Account Number">
+        <br>
+        <br>
+        <label for="#">Bank :</label>
+        <select name="#" id="#" style="margin-left: 105px; width: 200px;">
+            <option value="1"></option>
+            <option value="1">BCA</option>
+            <option value="1">Mandiri</option>
+            <option value="1">Seabank</option>
+            <option value="1">BRI</option>
+            <option value="1">BNI</option>
+        </select>
+        <br>
+        <br>
+        <label for="#">Accout Holder : </label>
+        <input type="name" style="margin-left: 45px; width: 280px;" placeholder="Name Here">
+        <br>
+        <br>
+        <label for="#">Transaction :</label>
+        <select name="Transaction" id="Transaction" style="margin-left: 65px;">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p style="margin-left: 150px;">*if the transaction is for 3 persons, choose 3 from the drop-down lis</p>
+        <input type="checkbox" style="margin-left: 153px;">
+        <label for="">Send To Mobile Phone</label>
+        <br>
+        <input type="checkbox" style="margin-left: 153px;">
+        <label for="">Send To Email</label>
+        <br>
+        <br>
+        <label for="#">Send to mobile Phone : </label>
+        <input type="number" name="#" id="#" style="margin-right: 165px; width: 300px;" placeholder="08123456789">
+        <br>
+        <br>
+        <label for="#">Send to Email : </label>
+        <input type="email" name="#" id="#" style="margin-left: 50px; width: 300px;" placeholder="asdfghjkl@gmail.com">
+        <!-- End of Content -->
+
+        <!-- Footer -->
+        <br><br><br><br>
+        <button type="submit" style="margin-left: 155px; background-color: green; color: white; padding: 0px 20px;">Confirm</button>
+        <!-- End of Footer -->
+    </form>
+    </section>
+</body>
+</html>
